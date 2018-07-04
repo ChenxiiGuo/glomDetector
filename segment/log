@@ -1,0 +1,20 @@
+1. http://www.ux.uis.no/~tranden/brodatz.html
+is a good web set for images.
+
+2.getGaborKernel(ksize, sigma, thetan lambda, gamma, psi, ktype)
+# cv2.getGaborKernel(ksize, sigma, theta, lambda, gamma, psi, ktype)
+# ksize - size of gabor filter (n, n)
+# sigma - standard deviation of the gaussian function
+# theta - orientation of the normal to the parallel stripes
+# lambda - wavelength of the sunusoidal factor
+# gamma - spatial aspect ratio
+# psi - phase offset
+# ktype - type and range of values that each pixel in the gabor kernel can hold
+
+
+# The ksize is related to sigma
+g_kernel = cv2.getGaborKernel((100, 100), 4, np.pi, 5, 0.5, 0, ktype=cv2.CV_32F)
+
+3. Compare longWave and shortWave, we can find that shortWave works much better.
+
+4. Since the signal of glomerulus is high frequency signal, long wave is useless.
