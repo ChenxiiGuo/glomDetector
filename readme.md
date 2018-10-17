@@ -37,6 +37,6 @@ Also, videos shows the difference between machine learning methods and human eng
 
 Later, I will put them in youtube.com.
 
-## Future plan
+## Finished
 
-Detect what happens in the neural networks. Several emperiments will be implemented.
+This model has been finished and I submitted the last code in 17/10/2018. With the help of finalStructure.mlx, you can train a new model. If you need the sourse images, please feel free to contact me (guochenxi.1991@gmail.com). Besides, since recently I am busy in searching jobs, this file has been messed up. Iam sorry for it. This problem will be solved soon.
